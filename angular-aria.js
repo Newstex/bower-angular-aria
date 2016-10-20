@@ -123,7 +123,7 @@ function $AriaProvider() {
           if (negate) {
             boolVal = !boolVal;
           }
-          elem.attr(ariaAttr, boolVal);
+          elem.attr(ariaAttr, !!boolVal);
         });
       }
     };
